@@ -1,5 +1,5 @@
 paths: # list or string
-  - _core
+  - ${PACKAGE_NAME}
 badge: static/img/coverage/docstr.svg # Path
 # exclude: "./_core/**/*.wav" # regex
 verbose: 4 # int (0-4)

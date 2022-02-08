@@ -10,8 +10,8 @@
 test:
 	pytest -vv -x -rP --color=yes
 	
-tests:
 	# durations is to print all durations for every called func
+tests:
 	pytest -vv -x -rP --color=yes --durations=0
 
 lint:

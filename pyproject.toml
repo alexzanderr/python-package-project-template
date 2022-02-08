@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "${PACKAGE_NAME}"
 version = "0.0.1"
-description = ${description}
+description = ${DESCRIPTION}
 authors = ["${USERNAME} <${AUTHOR_EMAIL}>"]
 packages = [
 	{ include = "${PACKAGE_NAME}" },
@@ -16,7 +16,7 @@ repository = "https://github.com/${USERNAME}/${PACKAGE_NAME}"
 
 
 [tool.poetry.dependencies]
-python = "^${python_version}"
+python = "^${PYTHON_VERSION}"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.0"
