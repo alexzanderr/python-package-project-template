@@ -24,7 +24,7 @@ pytest-xdist = "^2.5.0"
 pytest-cases = "^3.6.8"
 pytest-forked = "^1.4.0"
 pytest-steps = "^1.8.0"
-
+ptpython = "^3.0.20"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
