@@ -1,14 +1,17 @@
+# dots
 .pytest_cache
+.venv
+.mypy_cache
+.coverage
+
+# not-dots
 __pycache__
 credentials.py
 db.sqlite3
-.venv
-*.sublime-*
 nginx.conf
+*.sublime-*
 nginx/static
 migrations
-.mypy_cache
 logs
-.coverage
 htmlcov
 dist
